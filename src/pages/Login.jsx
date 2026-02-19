@@ -291,7 +291,7 @@ const Login = () => {
                 .animate-shake { animation: shake 0.4s ease-in-out; }
             `}</style>
 
-            <div className="min-h-screen flex">
+            <div className="min-h-screen flex flex-col lg:flex-row">
                 {/* ══════════════ LEFT SIDE ══════════════ */}
                 <div className="hidden lg:flex lg:w-1/2 relative bg-gradient-to-br from-violet-700 via-purple-700 to-blue-700 flex-col overflow-hidden">
                     <div className="absolute inset-0 z-0 pointer-events-none overflow-hidden">
